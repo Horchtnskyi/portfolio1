@@ -1,0 +1,534 @@
+
+/*Fonts*/
+@font-face {
+    font-family: "SegoeUIRegular";
+    src: url("fonts/SegoeUIRegular/SegoeUIRegular.eot");
+    src: url("fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
+    url("fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SegoeUIBold";
+    src: url("fonts/SegoeUIBold/SegoeUIBold.eot");
+    src: url("fonts/SegoeUIBold/SegoeUIBold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/SegoeUIBold/SegoeUIBold.woff") format("woff"),
+    url("fonts/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SegoeUIItalic";
+    src: url("fonts/SegoeUIItalic/SegoeUIItalic.eot");
+    src: url("fonts/SegoeUIItalic/SegoeUIItalic.eot?#iefix")format("embedded-opentype"),
+    url("fonts/SegoeUIItalic/SegoeUIItalic.woff") format("woff"),
+    url("fonts/SegoeUIItalic/SegoeUIItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SegoeUILight";
+    src: url("fonts/SegoeUILight/SegoeUILight.eot");
+    src: url("fonts/SegoeUILight/SegoeUILight.eot?#iefix")format("embedded-opentype"),
+    url("fonts/SegoeUILight/SegoeUILight.woff") format("woff"),
+    url("fonts/SegoeUILight/SegoeUILight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SegoeUISemiBold";
+    src: url("fonts/SegoeUISemiBold/SegoeUISemiBold.eot");
+    src: url("fonts/SegoeUISemiBold/SegoeUISemiBold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"),
+    url("fonts/SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/*Global*/
+
+body {
+    background: #515f67;
+    color: white;
+}
+
+header {
+    height: 150px;
+    background: rgba(81, 95, 103, 0.7);
+}
+
+h1 {
+    font-size: 30pt;
+    font-family: SegoeUIBold;
+}
+
+h2 {
+    font-size: 42pt;
+    font-family: SegoeUILight;
+    background: rgba(81, 95, 103, 0.7);
+    padding: 10px;
+    margin-top: 20px; 
+    display: inline-block;
+}
+
+h3 {
+    font-size: 30pt;
+    font-family: SegoeUILight;
+}
+
+h4 {
+    font-family: SegoeUIBold;
+    font-size: 24pt;
+    margin-bottom: 15px;
+}
+
+h5 {
+    font-family: SegoeUIBold;
+    font-size: 12pt;
+    color: #4bcaff;
+}
+
+.max-width {
+    max-width: 1170px;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.padding-80 {
+    padding: 80px 0px;
+}
+
+p {
+    font-size: 12pt;
+    font-family: SegoeUIRegular;
+}
+/*Other*/
+
+/*Image*/
+
+.margin-title {
+    height: 200px;
+}
+
+.title_image {
+    height: 800px;
+    background-image: url(images/blueasy-freebie_Title-image.jpg); 
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.header_box {
+    height: 40px;
+    padding: 55px 0px;
+}
+
+.logo {
+    float: left;
+    height: 100%;
+}
+
+h1 span {
+    color: #4bcaff;
+}
+
+/*menu*/
+
+.menu {
+	display: inline-block;
+	box-sizing: border-box;
+	float: right;
+    vertical-align: middle;
+}
+
+.menu li {
+	display: inline-block;
+    
+}
+
+.menu li a{
+    font-family: SegoeUIBold;
+	display: block;
+	font-size: 14pt;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 15px;
+	background-size: contain;
+	background-position: center;
+}
+
+.menu li .selected {
+    color: #4bcaff;
+    border: 2px solid #4bcaff;
+}
+
+/*Services*/
+
+.services_box {
+    height: 400px;
+    background: #4dcaff;
+}
+
+.services {
+    height: 240px;
+}
+
+h3 span {
+    text-decoration: underline;
+}
+
+.services_colum {
+    width: 25%;
+    text-align: left;
+    float: left;
+}
+
+.services_colum div {
+    margin-top: 20px;
+    width: 70px;
+    height: 50px;
+}
+
+.icon {
+    background-image: url(images/icons/coffee.jpg)
+}
+
+.icon2 {
+    background-image: url(images/icons/instant.jpg)
+}
+
+.icon3 {
+    background-image: url(images/icons/serious.jpg)
+}
+
+.icon4 {
+    background-image: url(images/icons/frame.jpg)
+}
+
+/*Portfolio*/
+
+.portfolio_box {
+    height: 840px;
+    background: white;
+}
+
+.portfolio {
+    height: 680px;
+    color: #515f67;
+}
+
+.portfolio_header {
+    height: 120px;
+}
+
+.portfolio h3 {
+    display: block;
+    float: left;
+}
+
+.portfolio_menu {
+	display: inline-block;
+	box-sizing: border-box;
+	float: right;
+    vertical-align: middle;
+}
+
+.portfolio_menu li {
+	display: inline-block;
+    cursor: pointer;
+    
+}
+
+.portfolio_menu li a{
+    font-family: SegoeUIBold;
+	display: block;
+	font-size: 14pt;
+	color: #515f67;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 15px;
+	background-size: contain;
+	background-position: center;
+}
+
+.portfolio_menu li .selected_p {
+    color: #4bcaff;
+    border: 2px solid #4bcaff;
+}
+
+.gallery {
+    height: 570;
+}
+
+.gallery_top {
+    margin-bottom: 30px;
+}
+
+.gallery_top,
+.gallery_bottom {
+    height: 270px;
+}
+
+.gallery_top div,
+.gallery_bottom div {
+    float: left;
+    height: 100%;
+    width: 270px;
+    background: black;
+    margin-right: 30px;
+    background-size: 100% 100%;
+}
+
+.gallery_top .last,
+.gallery_bottom .last {
+    margin-right: 0px;
+}
+
+.opacity {
+    width: 100%;
+    height: 100%;
+    opacity: 0.0;
+    background: #515f67;
+    z-index: 10;
+}
+
+.gallery_top div:nth-child(2) {
+    background-image: url(images/gallery/image1.jpg);
+    
+}
+
+.opacity:hover {
+    opacity: 0.8;
+    background: #515f67;
+}
+
+/*Section*/
+
+.section_box {
+    height: 475px;
+    background: #515f67;
+}
+
+.section {
+    height: 315px;
+}
+
+.section_text {
+    float: left;
+    width: 470px;
+    height: 100%;
+}
+
+.section_text>p {
+    margin-top: 40px;
+}
+
+
+#visit-me {
+    font-family: SegoeUIBold;
+    padding: 15px 50px;
+    background: #515f67;
+    border: 2px solid #353f46;
+    margin-top: 20px;
+}
+
+.section_video {
+    height: 100%;
+    width: 560px;
+    float: right;
+}
+
+/*Twitter*/
+
+.twitter_box {
+    background: #4bcaff;
+}
+
+.twitter>p {
+    font-family: SegoeUILight;
+    font-size: 28pt;
+    margin-top: 80px;
+}
+
+.twitter>span {
+    margin-top: 40px;
+}
+
+.twitter h3 {
+    display: block;
+    float: left;
+}
+
+.twitter_icon {
+    float: right;
+    width: 30px;
+    height: 30px;
+    background-image: url(images/icons/twitter.jpg);
+}
+
+/*Who is?*/
+
+.whoIs_box {
+    height: 500px;
+    background-image: url(images/whois.jpg);
+    background-position: center;
+}
+
+.whoIs {
+    height: 340px;
+}
+
+.whoIs>p {
+    font-size: 14pt;
+    display: block;
+    width: 570px;
+    margin-top: 40px;
+    float: left;
+    
+}
+
+.social_networks {
+    float: left;
+    height: 100px;
+    width: 570px;
+    margin-top: 40px;
+}
+
+.social_networks div {
+    width: 100px;
+    height: 100%;
+    margin-right: 20px;
+    background-size: 100% 100%;
+    float: left;
+}
+
+.social_networks div:nth-child(1) {
+    background-image: url(images/icons/FB.png);
+}
+
+.social_networks div:nth-child(2) {
+    background-image: url(images/icons/G.png);
+}
+
+.social_networks div:nth-child(3) {
+    background-image: url(images/icons/mail.png);
+}
+
+.social_networks div:nth-child(4) {
+    background-image: url(images/icons/Twitter.png);
+}
+
+/*Testimonials*/
+
+.testimonials_box {
+    background: white;
+}
+
+.testimonials>h3 {
+    margin-bottom: 40px;
+    color: #515f67;
+}
+
+.testimonials>h5 {
+    margin-top: 40px;
+}
+
+.testimonials>p {
+    font-size: 28pt;
+    margin-top: 10px;
+    color: #515f67;
+}
+
+/*Contact*/
+
+.contact_box {
+    background-image: url(images/contactimage.jpg);
+    background-position: center;
+}
+
+.contact>form>div>p {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"]  {
+    padding: 10px;
+    width: 80%;
+    height: 30px;
+    font-size: 20pt;
+    background: rgba(0,0,0, 0.0);
+    border: 2px solid white; 
+}
+
+textarea {
+    padding: 10px;
+    width: 100%;
+    font-size: 20pt;
+    background: rgba(0,0,0, 0.0);
+    border: 2px solid white; 
+}
+
+form div:nth-child(1) {
+    float: left;
+    width: 40%;
+    margin-bottom: 40px;
+}
+
+form div:nth-child(2) {
+    margin-top: 20px; 
+    float: left;
+    width: 50%;
+}
+
+form div:nth-child(3) {
+    clear: both;
+    margin-top: 40px; 
+    width: 10%;
+}
+
+
+input[type="submit"] {
+    height: 60px;
+    width: 25%;
+    background: #4bcaff;
+    border: 0px;
+    color: white;
+    margin-top: 20px;
+}
+
+/*Footer*/
+
+footer {
+    padding: 80px;
+}
+
+footer>.menu {
+    float: left;
+}
+
+footer>.menu li a{
+    font-family: SegoeUILight;
+	display: block;
+	font-size: 14pt;
+	color: #000000;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 15px;
+	background-size: contain;
+	background-position: center;
+}
+
+footer>p {
+    display: block;
+    float: right;
+    color: black;
+}
